@@ -69,4 +69,4 @@ Please refer to the setting up guides of above programs if some environment vari
 	```
 	where `x.y` is the version of the project (e.g. `/opt/tomcat/bin/catalina.sh run target/Marketplace-1.0.war`)
 
-2. Open [http://localhost:8080](http://localhost:8080) with your browser to see the app.
+2. Open [http://localhost:8080/Marketplace_war](http://localhost:8080/Marketplace_war) with your browser to see the app.
