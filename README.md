@@ -61,7 +61,7 @@ Please refer to the setting up guides of above programs if some environment vari
 	```bash
 	<path\to\tomcat>\bin\catalina.bat run target\Marketplace-x.y.war
 	```
-	where `x.y` is the version of the project (e.g. `C:\Tomcat\bin\catalina.bat run target\Marketplace-1.0.war`)
+	where `x.y` is the version of the project (e.g. `C:\Program Files\Apache Software Foundation\Tomcat 10.1\bin\catalina.bat run target\Marketplace-1.0.war`)
 
 	- On Unix-based systems
 	```bash
