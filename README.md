@@ -34,8 +34,8 @@ Please refer to the setting up guides of above programs if some environment vari
 
 2. Load the database schemata
    	```bash
-	java -jar scalardb-schema-loader-3.12.3.jar --config src/main/resources/users.properties --schema-file users.json --coordinator
-	java -jar scalardb-schema-loader-3.12.3.jar --config src/main/resources/articles.properties --schema-file articles.json --coordinator
+	java -jar scalardb-schema-loader-3.12.3.jar --config src/main/resources/META-INF/users.properties --schema-file users.json --coordinator
+	java -jar scalardb-schema-loader-3.12.3.jar --config src/main/resources/META-INF/articles.properties --schema-file articles.json --coordinator
 	```
 
 3. Start the container running the Cassandra database
