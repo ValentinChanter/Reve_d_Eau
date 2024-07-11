@@ -1,0 +1,15 @@
+{
+  "marketplace.articles": {
+    "transaction": true,
+    "partition-key": [
+      "id"
+    ],
+    "columns": {
+      "id": "BIGINT",
+      "name": "TEXT",
+      "price": "INT",
+      "stock": "INT",
+      "image": "TEXT"
+    }
+  }
+}

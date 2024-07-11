@@ -1,0 +1,17 @@
+{
+  "postgres.users": {
+    "transaction": true,
+    "partition-key": [
+      "id"
+    ],
+    "columns": {
+      "id": "BIGINT",
+      "email": "TEXT",
+      "name": "TEXT",
+      "password": "TEXT",
+      "is_admin": "BOOLEAN",
+      "loyalty_points": "INT",
+      "cart": "TEXT"
+    }
+  }
+}
