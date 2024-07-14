@@ -37,10 +37,16 @@ Please refer to the setting up guides of above programs if some environment vari
 
 3. Start the container running the Cassandra database
 	```bash
-	docker compose up -d
+	docker-compose up -d
 	```
 
-4. Build the application
+4. Load the database schemata
+   	```bash
+	java -jar scalardb-schema-loader-3.13.0.jar --config src/main/resources/META-INF/users.properties --schema-file users.json --coordinator
+	java -jar scalardb-schema-loader-3.13.0.jar --config src/main/resources/META-INF/articles.properties --schema-file articles.json --coordinator
+	```
+
+5. Build the application
    - On Windows
    ```bash
    .\mvnw.cmd clean package
