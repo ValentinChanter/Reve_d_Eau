@@ -3,6 +3,7 @@ out/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+scalardb-schema-loader-3.13.0.jar
 
 ### IntelliJ IDEA ###
 .idea/misc.xml

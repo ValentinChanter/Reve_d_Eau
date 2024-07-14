@@ -21,6 +21,7 @@ This web application is a marketplace that sell bottles of water.
     - [OpenJDK](https://openjdk.org/) 19.0.2 or newer  
     - [Oracle JDK](https://www.oracle.com/java/technologies/downloads/) 21.0.2 or newer
 - [Docker](https://www.docker.com/) 25.0.1 or newer
+- [ScalarDB Schema Loader 3.13.0](https://github.com/scalar-labs/scalardb/releases/download/v3.13.0/scalardb-schema-loader-3.13.0.jar) (direct download)
 
 Please refer to the setting up guides of above programs if some environment variables such as `JAVA_HOME` and `CATALINA_HOME` are needed during the following but not defined.
 
@@ -32,11 +33,7 @@ Please refer to the setting up guides of above programs if some environment vari
 	cd Reve_d_Eau
 	```
 
-2. Load the database schemata
-   	```bash
-	java -jar scalardb-schema-loader-3.12.3.jar --config src/main/resources/META-INF/users.properties --schema-file users.json --coordinator
-	java -jar scalardb-schema-loader-3.12.3.jar --config src/main/resources/META-INF/articles.properties --schema-file articles.json --coordinator
-	```
+2. Move the `scalardb-schema-loader-3.13.0.jar` file you downloaded to the root of `Reve_d_eau`
 
 3. Start the container running the Cassandra database
 	```bash
