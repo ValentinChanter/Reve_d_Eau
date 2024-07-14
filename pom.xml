@@ -61,12 +61,12 @@
       <dependency>
           <groupId>com.scalar-labs</groupId>
           <artifactId>scalardb</artifactId>
-          <version>3.12.2</version>
+          <version>3.13.0</version>
       </dependency>
       <dependency>
           <groupId>com.scalar-labs</groupId>
           <artifactId>scalardb-sql-jdbc</artifactId>
-          <version>3.12.2</version>
+          <version>3.13.0</version>
       </dependency>
       <dependency>
           <groupId>ch.qos.logback</groupId>
